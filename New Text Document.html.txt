@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpecSecure - Smart Eyewear Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <header class="header-section">
+            <div>
+                <h1 class="header-title">SpecSecure</h1>
+                <p class="header-subtitle">Smart eyewear stability and Bluetooth tracking</p>
+            </div>
+            <nav class="main-nav">
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <!-- Hero -->
+            <section class="hero-section">
+                <div>
+                    <h2 class="hero-subheading">Smart Spectacle Innovation</h2>
+                    <p class="hero-description">A lightweight spectacle design that uses silicone adhesive strips for comfort and stability, with an integrated Bluetooth tracker to help you find them if misplaced.</p>
+                    <div class="hero-actions">
+                        <a href="#about" class="button primary-button">Learn More</a>
+                        <a href="#features" class="button secondary-button">See Features</a>
+                    </div>
+                </div>
+                <div class="mockup-container">
+                    <div class="mockup-placeholder">SpecSecure Mockup</div>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section id="about" class="content-section">
+                <h3 class="section-heading">About SpecSecure</h3>
+                <p class="section-text">SpecSecure is designed to solve two common eyewear problems: discomfort and misplacement. Using skin-friendly silicone adhesive strips, it ensures a stable fit without relying on heavy frames. A built-in Bluetooth sensor tag connects with a mobile app, allowing users to locate their spectacles easily.</p>
+            </section>
+
+            <!-- Features -->
+            <section id="features" class="content-section">
+                <h3 class="section-heading">Key Features</h3>
+                <ul class="feature-list">
+                    <li>• Skin-safe silicone adhesive strips for secure and comfortable fit</li>
+                    <li>• Integrated low-energy Bluetooth tracker module</li>
+                    <li>• Companion mobile app for last-seen location and ring alert</li>
+                    <li>• Low-profile, lightweight design with hypoallergenic materials</li>
+                </ul>
+
+                <div class="tech-details-grid">
+                    <div class="tech-detail-item">Tech: BLE 5.0, CR2032 battery</div>
+                    <div class="tech-detail-item">Materials: Medical-grade silicone</div>
+                    <div class="tech-detail-item">UX: Find-my-specs app support</div>
+                    <div class="tech-detail-item">Safety: Hypoallergenic adhesives</div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact" class="content-section contact-section-modifiers">
+                <h4 class="contact-heading">Contact & Next Steps</h4>
+                <p class="contact-text">Want this exported as a static HTML page, a PDF report, or presentation slides? Let me know and I'll prepare it.</p>
+
+                <div class="contact-actions">
+                    <a class="button contact-button-primary">Export HTML</a>
+                    <a class="button contact-button-secondary">Request PDF</a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer-section">Made with ❤️ — SpecSecure project</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
